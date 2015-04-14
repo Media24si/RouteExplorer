@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Media24si\\RouteExplorer": "src/"
+      "Media24si\\RouteExplorer\\": "src/"
     }
   }
 }
