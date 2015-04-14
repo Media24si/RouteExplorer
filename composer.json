@@ -1,5 +1,5 @@
 {
-  "name": "Media24si/RouteExplorer",
+  "name": "media24si/route-explorer",
   "description": "Laravel 5 route explorer",
   "license": "MIT",
   "keywords": ["laravel", "laravel 5", "route explorer", "route list" ],
