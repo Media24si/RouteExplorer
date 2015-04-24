@@ -26,4 +26,18 @@ class ListController extends BaseController {
 
 		dd($match);
 	}
+
+	public function routeGroups() {
+		$routes = self::$router->getRoutes();
+
+		foreach( $routes as $route )
+		{
+			$prefix = ($route->getPrefix() !== null) ? $route->getPrefix() : "/";
+			$routes_array[$prefix][] = $route;
+		}
+
+		ksort($routes_array);
+
+		return view('RouteExplorer::list.route-groups', ['routes' => $routes_array]);
+	}
 }
