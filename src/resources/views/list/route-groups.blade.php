@@ -25,7 +25,7 @@
             </thead>
             @foreach ($routes as $key => $routeGroup) 
             <tbody>
-                <tr><th colspan="5">{{ $key }}</th></tr>
+                <tr class="routeGroup"><th colspan="5">{{ $key }}</th></tr>
                 @foreach ($routeGroup as $route)
                     <tr>
                         <td>{{ implode('|', $route->getMethods())  }}</td>
@@ -39,5 +39,13 @@
             @endforeach
         </table>
     </div>
+
+    <script type="text/javascript">
+        var x = document.getElementsByClassName("routeGroup");
+        var i;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.backgroundColor = 'rgba(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ', 0.1)';
+        }
+    </script>
 </body>
 </html>
