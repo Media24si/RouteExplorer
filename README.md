@@ -20,6 +20,8 @@ Register the RouteExplorerServiceProvider to the providers array in config/app.p
 
 Go to **/routes** to see all registrated routes.
 
+Go to **/routes/groups** to see routes grouped by prefixes
+
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
