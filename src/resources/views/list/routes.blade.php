@@ -8,11 +8,17 @@
     <title>Route List</title>
 
     <!-- Bootstrap -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
 </head>
 <body>
     <div class="container">
         <h1>Routes</h1>
+
+        <ul class="nav nav-tabs">
+          <li role="presentation" class="active"><a href="#">Routes</a></li>
+          <li role="presentation"><a href="{{ action('\Media24si\RouteExplorer\app\Http\Controllers\ListController@routeGroups') }}">Route groupes</a></li>
+        </ul>
+
         <table class="table table-bordered">
             <thead>
                 <tr>

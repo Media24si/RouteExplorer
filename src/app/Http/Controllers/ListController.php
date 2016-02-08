@@ -9,8 +9,6 @@ use Illuminate\Http\Request;
 
 class ListController extends BaseController
 {
-    use DispatchesCommands, ValidatesRequests;
-
     public function routes()
     {
         $routes = self::$router->getRoutes();

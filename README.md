@@ -10,17 +10,17 @@ Require this package with composer (Packagist) using the following command:
 $ composer require media24si/route-explorer
 ```
 
-Register the RouteExplorerServiceProvider to the providers array in config/app.php
+Register the RouteExplorerServiceProvider to the providers array in `config/app.php`
 
 ``` php
-'Media24si\RouteExplorer\RouteExplorerServiceProvider',
+Media24si\RouteExplorer\RouteExplorerServiceProvider::class
 ```
 
 ## Usage
 
-Go to **/routes** to see all registrated routes.
+Go to `/routes` to see all registrated routes.
 
-Go to **/routes/groups** to see routes grouped by prefixes
+Go to `/routes/groups` to see routes grouped by prefixes
 
 ## License
 
