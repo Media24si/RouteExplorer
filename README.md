@@ -1,3 +1,6 @@
+# Archived - see [Pretty Routes for Laravel](https://github.com/garygreen/pretty-routes)
+
+
 # Laravel5 Route Explorer
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
